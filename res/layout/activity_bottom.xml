@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/lightgreen" >
+   
+       <LinearLayout
+           android:id="@+id/ll_chinese"
+           android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:orientation="vertical" >
+  
+          <ImageButton
+              android:id="@+id/ib_chinese"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/chinese1" />
+  
+          <TextView
+              android:id="@+id/tv_chinese"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
+              android:text="语文"
+              android:textColor="#ffffffff"
+              android:textStyle="bold" />
+      </LinearLayout>
+  
+      <LinearLayout
+          android:id="@+id/ll_math"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:orientation="vertical" >
+  
+          <ImageButton
+              android:id="@+id/ib_math"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/math1" />
+  
+          <TextView
+              android:id="@+id/tv_math"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
+              android:text="数学"
+              android:textColor="#ffffff"
+              android:textStyle="bold" />
+      </LinearLayout>
+       <LinearLayout
+          android:id="@+id/ll_eglish"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:orientation="vertical" >
+  
+          <ImageButton
+              android:id="@+id/ib_eglish"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/english1" />
+  
+          <TextView
+              android:id="@+id/tv_eglish"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
+              android:text="英语"
+              android:textColor="#ffffff"
+              android:textStyle="bold" />
+      </LinearLayout>
+      <LinearLayout
+          android:id="@+id/ll_mine"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:orientation="vertical" >
+  
+          <ImageButton
+              android:id="@+id/ib_mine"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/mine" />
+  
+          <TextView
+              android:id="@+id/tv_mine"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
+              android:text="我的"
+              android:textColor="#ffffff"
+              android:textStyle="bold" />
+      </LinearLayout>
+ 
+ </LinearLayout>

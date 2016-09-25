@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="115dp"
+    android:gravity="center"
+    android:padding="8dp" >
+    
+     <TextView
+         android:id="@+id/qtitle"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:gravity="left"
+         android:text="问题题目"
+         android:textSize="18sp" />
+
+     <TextView
+         android:id="@+id/qcontent"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/qtitle"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="10dp"
+         android:layout_toRightOf="@+id/qimg"
+         android:ellipsize="end"
+         android:text="我是问题的内容"
+         android:textColor="@color/gray"
+         android:textSize="16sp" />
+
+	 	 <TextView
+	 	     android:id="@+id/updateTime"
+	 	     android:layout_width="wrap_content"
+	 	     android:layout_height="wrap_content"
+	 	     android:layout_above="@+id/qcontent"
+	 	     android:layout_alignRight="@+id/qtitle"
+	 	     android:layout_marginRight="19dp"
+	 	     android:text="111"
+	 	     android:textSize="15sp" />
+
+	 	 <ImageView
+	 	     android:id="@+id/qimg"
+	 	     android:layout_width="50dp"
+	 	     android:layout_height="40dp"
+	 	     android:layout_alignLeft="@+id/qtitle"
+	 	     android:layout_centerVertical="true"
+	 	     android:src="@drawable/question"
+	 	     android:layout_alignTop="@+id/qcontent" 
+	 	     />
+
+</RelativeLayout>
